@@ -186,10 +186,11 @@ textarea,input{
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0;  
     width: 30%;
     height: 2px;
     background-color: var(--text-color);
+    transition: all 1.3s var(--transition);
 }
 .tabs__data{
     row-gap: 1rem;
@@ -204,6 +205,13 @@ textarea,input{
 .tabs__btn.tab__active::after{
     background-color: var(--first-color);
     width: 100%;
+}
+.tabs__item[data-content]{
+    display: none;
+}
+.tab__active[data-content]
+{
+    display: block;
 }
   /*=============== SERVICES ===============*/
   
