@@ -1,131 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!--=============== UNICONS ===============-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="css/style.css" />
     <title>Doctor Pc</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header"></header>
 
     <!--=============== MAIN ===============-->
     <main class="main">
-      <!--=============== HOME ===============-->
-      <section class="home" id="home">
-        <div class="home__container container grid">
-            <div class="home__content">
-                <span class="home__subtitle">Welcome To My World</span>
-                 <h1 class="home__title">Hi, I'm Doctor Junaid <span>JS Developer</span>. base in Rwanda</h1>
-            </div>
-
-            <img src="images/home.png" alt="" class="home__img">
-        </div>
-      </section>
-
-      <!--=============== ABOUT ===============-->
-      <section class="about section" id="about">
-        <div class="about__container container grid">
-            <img src="images/about.png" alt="" class="about__img">
-            <div class="about__content">
-                <h2 class="section__title">About Me</h2>
-                <p class="about__description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
-                    et exercitationem quidem unde excepturi quod. Molestias ab atque quos.
-                    Qui voluptatibus et nihil ratione ipsam unde placeat quam illo recusandae.
-                </p>
-                <div class="tabs__btns">
-                    <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
-                    <span class="tabs__btn" data-target="#award">Award</span>
-                    <span class="tabs__btn" data-target="#experience">Experience</span>
-                    <span class="tabs__btn" data-target="#education">Education & Certification</span>
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Welcome To My World</span>
+                    <h1 class="home__title">Hi, I'm Doctor Junaid <span>JS Developer</span>. base in Rwanda</h1>
                 </div>
-                <div class="tabs__content">
-                    <div class="tabs__item tab__active" data-content id="skills">
-                        <div class="tabs__data grid">
-                            <p class="tabs__description">
-                                <span>Use experience design</span> - UI/UX
-                                <span>Delight the user and make  it work.</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>Web and user interface design</span> - Development
-                                <span>Websites, web experiences, ...</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>Intraction design</span> - Animation
-                                <span>I like to move it move it.</span>
-                            </p>
-                        </div>
+
+                <img src="images/home.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <img src="images/about.png" alt="" class="about__img">
+                <div class="about__content">
+                    <h2 class="section__title">About Me</h2>
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+                        et exercitationem quidem unde excepturi quod. Molestias ab atque quos.
+                        Qui voluptatibus et nihil ratione ipsam unde placeat quam illo recusandae.
+                    </p>
+                    <div class="tabs__btns">
+                        <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+                        <span class="tabs__btn" data-target="#award">Award</span>
+                        <span class="tabs__btn" data-target="#experience">Experience</span>
+                        <span class="tabs__btn" data-target="#education">Education & Certification</span>
                     </div>
-                    <div class="tabs__item" data-content id="award">
-                        <div class="tabs__data grid">
-                            <p class="tabs__description">
-                                <span>Awwwards.com</span> - Winner
-                                <span>2019-2020</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>CSS Design Awards</span> - Winner
-                                <span>2017 - 2018</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>Design nominees</span> - site of the day
-                                <span>2013 - 2014</span>
-                            </p>
+                    <div class="tabs__content">
+                        <div class="tabs__item tab__active" data-content id="skills">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Use experience design</span> - UI/UX
+                                    <span>Delight the user and make it work.</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Web and user interface design</span> - Development
+                                    <span>Websites, web experiences, ...</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Intraction design</span> - Animation
+                                    <span>I like to move it move it.</span>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="tabs__item" data-content id="experience">
-                        <div class="tabs__data grid">
-                            <p class="tabs__description">
-                                <span>Sr.Front-end Enginner</span> - Google
-                                <span>2018 - Current</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>Front-end Engineer</span> - Microsoft
-                                <span>2007 - 2008</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>Software Engineer</span> - Alibaba
-                                <span>2014 - 2014.</span>
-                            </p>
+                        <div class="tabs__item" data-content id="award">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Awwwards.com</span> - Winner
+                                    <span>2019-2020</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>CSS Design Awards</span> - Winner
+                                    <span>2017 - 2018</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Design nominees</span> - site of the day
+                                    <span>2013 - 2014</span>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="tabs__item" data-content id="education">
-                        <div class="tabs__data grid">
-                            <p class="tabs__description">
-                                <span>Bsc in CSE</span> - ABC insitute ios
-                                <span>2009</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>Diploma in Computer Science</span> - Gamma
-                                <span>2009</span>
-                            </p>
-                            <p class="tabs__description">
-                                <span>Graphic Designer</span> - Kigali insitute
-                                <span>2007</span>
-                            </p>
+                        <div class="tabs__item" data-content id="experience">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Sr.Front-end Enginner</span> - Google
+                                    <span>2018 - Current</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Front-end Engineer</span> - Microsoft
+                                    <span>2007 - 2008</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Software Engineer</span> - Alibaba
+                                    <span>2014 - 2014.</span>
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                        <div class="tabs__item" data-content id="education">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Bsc in CSE</span> - ABC insitute ios
+                                    <span>2009</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Diploma in Computer Science</span> - Gamma
+                                    <span>2009</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Graphic Designer</span> - Kigali insitute
+                                    <span>2007</span>
+                                </p>
+                            </div>
+                        </div>
 
 
+                    </div>
                 </div>
             </div>
-        </div>
-      </section>
+        </section>
 
-      <!--=============== SERVICES ===============-->
-      <section class="services section" id="services"></section>
+        <!--=============== SERVICES ===============-->
+        <section class="services section" id="services">
+            <h2 class="section__title">My Awesome Service</h2>
+            <p class="section__description">
+                There are many variation of passages of lorem Ipsum Available,but
+                the majority have suffered alteration.
+            </p>
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="uil uil-rss-interface services__icon"></i>
+                    <h3 class="services__title">Business Stratagy</h3>
+                    <p class="services__description">
+                        I throw myself down among the tall grass by the stream as I lie
+                        close to the earth.
+                    </p>
+                </div>
 
-      <!--=============== PORTFOLIO ===============-->
-      <section class="portfolio section" id="portfolio"></section>
+                <div class="services__item">
+                    <i class="uil uil-users-alt services__icon"></i>
+                    <h3 class="services__title">Website Development</h3>
+                    <p class="services__description">
+                        I throw myself down among the tall grass by the stream as I lie
+                        close to the earth.
+                    </p>
+                </div>
 
-      <!--=============== CONTACT ===============-->
-      <section class="contact section" id="contact"></section>
+                <div class="services__item">
+                    <i class="uil uil-rss-interface services__icon"></i>
+                    <h3 class="services__title">Mobile Development</h3>
+                    <p class="services__description">
+                        I throw myself down among the tall grass by the stream as I lie
+                        close to the earth.
+                    </p>
+                </div>
+
+                <div class="services__item">
+                    <i class="uil uil-desktop services__icon"></i>
+                    <h3 class="services__title">Marketing & Reporting</h3>
+                    <p class="services__description">
+                        I throw myself down among the tall grass by the stream as I lie
+                        close to the earth.
+                    </p>
+                </div>
+
+                <div class="services__item">
+                    <i class="uil uil-desktop services__icon"></i>
+                    <h3 class="services__title">Mobile Development</h3>
+                    <p class="services__description">
+                        I throw myself down among the tall grass by the stream as I lie
+                        close to the earth.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <i class="uil uil-rss-interface services__icon"></i>
+                    <h3 class="services__title">Business Stratagy</h3>
+                    <p class="services__description">
+                        I throw myself down among the tall grass by the stream as I lie
+                        close to the earth.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== PORTFOLIO ===============-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">My Latest Project</h2>
+            <p class="section__description">
+                There are many variations of passages of Loren Ipsum availabe, but
+                the majority have suffered alteration
+            </p>
+            <div class="portfolio__container container grid">
+                <div class="portfolio__item">
+                    <img src="images/portfolio-1.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Development</p>
+                        <h3 class="portfolio__title">Web Design</h3>
+                        <p class="portfolio__description">
+                            Lorem ipsam dolor sit amet, conse ctetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/portfolio-2.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Product Design</p>
+                        <h3 class="portfolio__title">App Development</h3>
+                        <p class="portfolio__description">
+                            Lorem ipsam dolor sit amet, conse ctetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/portfolio-3.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Application</p>
+                        <h3 class="portfolio__title">Photoshop Design</h3>
+                        <p class="portfolio__description">
+                            Lorem ipsam dolor sit amet, conse ctetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/portfolio-4.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Web Design</p>
+                        <h3 class="portfolio__title">Website Design</h3>
+                        <p class="portfolio__description">
+                            Lorem ipsam dolor sit amet, conse ctetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/portfolio-5.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Application</p>
+                        <h3 class="portfolio__title">Web Application</h3>
+                        <p class="portfolio__description">
+                            Lorem ipsam dolor sit amet, conse ctetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/portfolio-6.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Photoshop</p>
+                        <h3 class="portfolio__title">Photo Editor</h3>
+                        <p class="portfolio__description">
+                            Lorem ipsam dolor sit amet, conse ctetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h2 class="section__title">Hire Me</h2>
+                    <p class="contact__description">I am available For work.
+                        Connect with me via phone: <a href="tel:+250780042383">250-780-042383</a> or email: <a
+                            href="mailto:admin@example.com">admin@example</a>
+                    </p>
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__form-input">
+                            <input type="text" name="name" placeholder="Your Name *" class="contact__input"
+                                id="contact-name">
+                        </div>
+                        <div class="contact__form-input">
+                            <input type="email" name="email" placeholder="Your Email" class="contact__input"
+                                id="contact-email">
+                        </div>
+                        <div class="contact__form-input">
+                            <input type="text" name="subject" placeholder="Write a Subject" class="contact__input"
+                                id="contact-subject">
+                        </div>
+                        <div class="contact__form-input">
+                            <textarea name="message" id="contact-message" class="contact__input textarea"
+                                placeholder="Your Message"></textarea>
+                        </div>
+                        <input type="button" value="Submit" class="btn">
+                        <p class="error__message" id="error-message">Error</p>
+                    </form>
+                </div>
+                <img src="images/contact.jpg" alt="" class="contact__img">
+            </div>
+        </section>
     </main>
 
     <!--=============== FOOTER ===============-->
@@ -138,5 +300,6 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="js/script.js"></script>
-  </body>
+</body>
+
 </html>
