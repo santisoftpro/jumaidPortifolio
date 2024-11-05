@@ -679,6 +679,7 @@ input {
     }
 
     .nav__menu {
+        display: none;
         position: fixed;
         top: 0;
         right: 100%;
@@ -803,6 +804,7 @@ input {
 @media screen and (max-width: 576px) {
 
     .nav__menu {
+        display: none;
         width: 50vh;
         padding: 2.75rem;
     }
